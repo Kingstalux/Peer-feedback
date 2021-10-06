@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #959595;
+  font-size: 1.5em;
+}
+
+p {
+  color: rgb(95, 93, 93);
+  font-size: 1.2em;
+}
+
+.cancel {
+  text-decoration: line-through;
+  color: #959595;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.rotate:hover {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f0f5;
+}
+
+.body {
+  width: 50vw;
+  background-color: white;
+  border: 0.1em solid #e6e6e6;
+  box-shadow: 0.5em 0.5em 0.5em #e6e6e6;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+}
+
+.new-item {
+  margin: 1em;
+  border: none;
+  width: 43.9vw;
+  height: 1em;
+  font-size: 1.2em;
+  color: rgb(95, 93, 93);
+}
+
+.edit-item {
+  margin: 0.18em 0.9em;
+  border: none;
+  width: 43.9vw;
+  height: 1em;
+  font-size: 1.2em;
+  color: rgb(95, 93, 93);
+  background-color: inherit;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.color {
+  background-color: yellow;
+}
+
+input:checked::after {
+  content: '✔';
+  border-right: white;
+  background-color: white;
+  color: blue;
+  display: block;
+}
+
+.check:hover {
+  cursor: pointer;
+}
+
+.check2:hover {
+  cursor: col-resize;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div p {
+  margin-left: 1em;
+}
+
+.button {
+  width: 49.8vw;
+  border: none;
+  color: #b5b5b5;
+  background-color: white;
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.button:hover {
+  color: rgb(95, 93, 93);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
